@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--Favicon link-->
+  <link rel="icon" href="./faviconimage.ico" type="image/x-icon">
+  <!--Font Style Link-->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800,900" rel="stylesheet">
+  <!--CSS Reset Sheet-->
+  <link rel="stylesheet" href="resources/css/reset.css">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--CSS Style sheets-->
+  <link rel="stylesheet" href="resources/css/style.css">
+
   <title>Match Game</title>
 </head>
 <body>
+  <!--Responsive page container-->
+  <div class="container">
+    <!--Game instructions shoulkd take a 1/4 width of Container width depending on Screen Size-->
+    <div class="row">
+    <div class="col-md-3 col-xs-12">
+      <h1>Match Game</h1>
+      <h2>Rules</h2>
+      <p>Click on a card to reveal the number on the other side. Click on a second Card to try and find a match to the first. If you succeed, the pair will be removed from play. If not try again!</p>
+      <h2>How to Win</h2>
+      <p>You win when all pairs have been found</p>
+      
+    </div>
+
+
+
+
+    <!--Game should take up 3/4 of screen width on screens larger than 992px-->
+    <div class="col-md-9 col-xs-12" id="game">
+        <div class="row">
+          <!-- 16 game cards elements-->
+
+        </div>
+      </div>
+  </div>
+</div>
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
